@@ -27,7 +27,7 @@ const SearchUser = () => {
         if (!user) {
             return <p className="text-center mt-5">أختر طريقة البحث واكتب ما تريد ان تبحث به ثم اضغط بحث</p>
         }
-        if (user === undefined) {
+        if (user === undefined || user === []) {
             return <p className="text-center mt-5">للأسف لا يوجد مستخدم يناسب عملية البحث .. برجاءا حاول مرة أخرى بطريقة صحيح</p>
         }
         return (
