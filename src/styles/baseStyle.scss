@@ -1,1 +1,25 @@
 // Here We Provide The Base Styling for The Application such (Themes/Variables ... etc)
+
+// Colors
+$bckColor: #4db6ac;
+$mainColor: #fff;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "El Messiri", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl !important;
+  background-color: $bckColor;
+  color: $mainColor;
+}
+
+// Importing The Header Styles Here
+@import "./components/header";
+
+// Importing The Profile Styles Here
+@import "./components/profile";

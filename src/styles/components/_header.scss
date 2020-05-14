@@ -1,0 +1,19 @@
+// Header Styles
+.login {
+  margin-right: auto !important;
+}
+
+.home {
+  a {
+    color: inherit !important;
+    text-decoration: none;
+    &:hover {
+      color: inherit !important;
+      text-decoration: none;
+    }
+  }
+}
+
+.close {
+  margin: 0 !important;
+}
